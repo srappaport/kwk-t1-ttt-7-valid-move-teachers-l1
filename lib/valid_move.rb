@@ -8,7 +8,7 @@ def position_taken?(array, index)
     true
   end
 end
-
+position_taken?(array, index)
 def valid_move?(array, index)
   if position_taken? == true && index.between?(0,8)
     true
