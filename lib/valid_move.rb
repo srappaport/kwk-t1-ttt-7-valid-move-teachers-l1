@@ -4,4 +4,5 @@ def valid_move?(array, index)
     true
   else
     false
+  end
 end
